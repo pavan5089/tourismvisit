@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Travel</h1>
+        <nav>
+            <ul>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h2>Your Adventure Awaits</h2>
+            <p>Discover amazing places around the world.</p>
+            <button onclick="alert('Explore more!')">Start Exploring</button>
+        </section>
+
+        <section id="destinations" class="destinations">
+            <h2>Top Destinations</h2>
+            <div class="destination-card">
+                <h3>Paris</h3>
+                <p>The city of lights and romance.</p>
+            </div>
+            <div class="destination-card">
+                <h3>Tokyo</h3>
+                <p>A blend of tradition and modernity.</p>
+            </div>
+            <div class="destination-card">
+                <h3>New York</h3>
+                <p>The city that never sleeps.</p>
+            </div>
+        </section>
+
+        <section id="activities" class="activities">
+            <h2>Activities to Enjoy</h2>
+            <ul>
+                <li>Hiking in the mountains</li>
+                <li>Exploring ancient ruins</li>
+                <li>Cultural festivals</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Explore Travel</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
